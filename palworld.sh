@@ -29,6 +29,7 @@ sudo usermod -aG docker $USER
 sudo mkdir /usr/games/serverconfig
 cd /usr/games/serverconfig
 sudo bash -c 'echo "version: \"3\"
+VERSION '3.1'
 services:
    palworld:
       image: thijsvanloef/palworld-server-docker
