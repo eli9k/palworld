@@ -1,4 +1,4 @@
-# Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+i9k/# Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
 # SPDX-License-Identifier: MIT-0
 
 sudo apt update && sudo apt upgrade -y 
@@ -32,7 +32,7 @@ sudo bash -c 'echo "version: \"3\"
 version: '3.1'
 services:
    palworld:
-      image: thijsvanloef/palworld-server-docker
+      image: eli9k/mypalserver
       restart: unless-stopped
       container_name: palworld-server
       ports:
